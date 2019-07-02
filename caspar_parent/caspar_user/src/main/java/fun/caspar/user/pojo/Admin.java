@@ -13,6 +13,7 @@ import java.io.Serializable;
 public class Admin implements Serializable {
     @Id
     private String id;
+    private String name;
 
     /**
      * 登陆名称
